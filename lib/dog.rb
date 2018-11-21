@@ -5,10 +5,10 @@ class Dog
   def name
     "#{@name}".strip
   end
-  def bread=(bread)
-    @bread = bread
+  def breed=(breed)
+    @breed = breed
   end
-  def bread
-    "#{@bread}".strip
+  def breed
+    "#{@breed}".strip
   end
 end
